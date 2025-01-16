@@ -237,3 +237,53 @@ fa-gem {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main__btn {
+    font-size: 1 rem;
+    background-image: linear-gradient(to top, rgb(156, 227, 243) 0%, #349bad 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: 2rem;
+    position: relative;
+    transition: all 0.5;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #141414;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: fff;
+}
+
+.main__btn:hover:after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
