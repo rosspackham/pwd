@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #349bad;
+    background: #218f63;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -46,6 +46,8 @@
 
 #pwd-logo {
     padding: 10px;
+    width: 165px;
+    height: 165px
 }
 
 fa-gem {
@@ -92,17 +94,17 @@ fa-gem {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #143c43;
+    background: #218f63;
     color: #fff;
 }
 
 .button:hover {
-    background: #47c3d8;
+    background: #0a3622;
     transition: all 0.5s ease;
 }
 
 .navbar__links:hover {
-    color: #143c43;
+    color: #218f63;
     transition: all 0.5s ease;
 }
 
@@ -223,7 +225,7 @@ fa-gem {
 
 .main__content h1 {
     font-size: 4rem;
-    background-color: #349bad;
+    background-color: #218f63;
     background-image: linear-gradient(to top, #143c43 0%, #349bad 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -234,7 +236,7 @@ fa-gem {
 
 .main__content h2 {
     font-size: 4rem;
-    background-color: #349bad;
+    background-color: #218f63;
     background-image: linear-gradient(to top, #e7eced 0%, #4b5e61 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -462,4 +464,11 @@ fa-gem {
 }
 
 /* Footer CSS */
-
+.footer__container {
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
